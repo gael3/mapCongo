@@ -24,11 +24,12 @@
         };
  
         // Création et affichage de la carte dans le div map_canvas
+		//
         var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
  
         // Ajout d'un marqueur sur la carte
         var mark = new google.maps.Marker({
-            position: latlng,
+            position: latlngm
             map:      map,
             title:    config.location
         });
