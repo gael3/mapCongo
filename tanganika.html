@@ -1,0 +1,152 @@
+<html>
+        <head>
+		
+		<title>TANGANIKA</title>
+		    <script type="text/JavaScript">
+			function montrer(element)
+			{
+			    var les_elements =new Array ("apropos","inscription","actualite","contact")
+				for(var i=0;i<les_elements.length;i++)
+				document.getElementById(les_elements[i]).style.display='none';
+				
+		      document.getElementById(element).style.display='block';
+			}
+		
+		     </script>
+			 <style type="text/css">
+			 body {
+			     font-family:black;
+				 font-size:15px;
+				 
+			 }
+			  #conteneur {
+			     width:700px;
+                 margin:auto;
+				
+			 }
+			 #haut {
+			     
+				 height:100px;
+				 font-size:20px;
+				 padding:10px;
+			 }
+			 #liens {
+			     
+				 height:34px;
+				 background:#333;
+				 padding-top:6px;
+				
+			 }
+			 #milieu {
+			     
+				 height:480   px;
+				 background:#ddd;
+				 padding:10px;
+			 }
+			 #bas {
+			    text-align:center;
+				 height:20px;
+				 background:red;
+			 }
+			  #liens a{
+			     display:block;
+				background:#ddd;
+				 margin-right:10px;
+				 padding:10px;
+				 float:left;
+				 width:100px;
+				 text-align:center;
+				 color:#333;
+				 
+			 }
+			 #liens a:hover{
+			     
+				border-top:4px outset #999;
+				 
+				 
+			 }
+			 #apropos,
+			 #inscription,
+			 #actualite,
+			 #contact{
+			  display:none;
+			 }
+			 </style>
+		</head>
+         
+		 
+		 
+		<body>
+         
+		    <div id="conteneur">
+			    <div id="haut">
+				<img src="img/drapRDC-200x194.jpg" width="200" height="100" alt="TANGANIKA">
+				KALEMIE CHEF LIEU DE TANGANIKA
+			    </div>
+				<div id="liens">
+				<a href="javascript:montrer('apropos')">Decouverte</a>
+				<a href="javascript:montrer('inscription')">S'inscrire</a>
+				<a href="javascript:montrer('actualite')">Actualite</a>
+				<a href="javascript:montrer('contact')">Contact</a>
+			    
+			    </div>
+			    <div id="milieu">
+				     
+					<div id="apropos">
+					<h3>TANGANIKA</h3>
+					Bonjour !!
+					<br/>
+					<br/>
+					vient voir la ville de kalemie.
+					<br/>
+					<br/>
+				    veut tu en savoir plus ?
+					<br/>
+					<a href="index.html">Voir la ville de KALEMIE via google map</a>
+					</div>
+					<div id="inscription">
+					<h3>S'inscrire</h3>
+					  <form>
+					    Nom<br/>
+					    <input type="text" name="Nom"/>
+					    <br/><br/>
+					    Passe<br/>
+					    <input type="password" name="pass"/>
+					    <br/><br/>
+					    E-Mail<br/>
+					    <input type="text" name="Nom"/>
+					      <br/><br/>
+						  <input type="submit" value="s'inscrire"/>
+					  </form>
+				    </div>
+					<div id="actualite">
+					Decouvrez :
+					<br/></br>
+				La ville de kalemie  est maintenant  le chef  lieu de province de TANGANIKA
+				La ville de kalemie  est maintenant  le chef  lieu de province de TANGANIKA
+				La ville de kalemie  est maintenant  le chef  lieu de province de TANGANIKA
+				La ville de kalemie  est maintenant  le chef  lieu de province de TANGANIKA
+				La ville de kalemie  est maintenant  le chef  lieu de province de TANGANIKA
+				La ville de kalemie  est maintenant  le chef  lieu de province de TANGANIKA
+				<br/></br>
+				Nouveaux provinces !!!!
+				Map Congo apres decoupage  26 provinces maintenant!!!
+				</br>
+					</div>
+					<div id="contact">
+					Contactez nous au 0995173204
+					<br/></br>
+					Pour plus d'informations !!!
+					
+					</div>
+				
+			   
+			    </div>
+			    <div id="bas" >
+			   COPYRIGHT 2015
+			    </div>
+			</div>
+		</body>
+
+
+</html>
